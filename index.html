@@ -112,47 +112,6 @@
         </footer>
     </div>
 
-    <!-- Add Channel Modal -->
-    <div class="modal fade" id="addChannelModal" tabindex="-1" aria-labelledby="addChannelModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <h5 class="modal-title w-100 text-center" id="addChannelModalLabel">افزودن کانال جدید</h5>
-                </div>
-                <div class="modal-body">
-                    <form id="addChannelForm">
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <label for="channelName" class="form-label">نام کانال <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="channelName" required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label for="channelLink" class="form-label">لینک <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="channelLink" required placeholder="https://t.me/... یا @username" dir="ltr">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 mb-3">
-                                <label for="channelTags" class="form-label">تگ‌ها (اختیاری)</label>
-                                <input type="text" class="form-control" id="channelTags" placeholder="مثال: osint blue red" dir="ltr">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="channelDescription" class="form-label">توضیحات (اختیاری)</label>
-                            <textarea class="form-control" id="channelDescription" rows="2"></textarea>
-                        </div>
-                        <input type="hidden" id="channelStatus" value="Active">
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">انصراف</button>
-                    <button type="button" class="btn btn-success" id="submitNewChannel">ثبت کانال</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Tags Modal -->
     <div class="modal fade" id="tagsModal" tabindex="-1" aria-labelledby="tagsModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">

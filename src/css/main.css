@@ -99,6 +99,15 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
+/* RTL settings for input-group in search box */
+.input-group.input-group-rtl .input-group-text {
+    border-radius: 30px 0 0 30px;
+}
+
+.input-group.input-group-rtl #searchInput {
+    border-radius: 0 30px 30px 0;
+}
+
 .input-group:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
@@ -116,6 +125,19 @@ h1 {
     font-size: 0.95rem;
     border-radius: 30px 0 0 30px;
     background-color: rgba(255, 255, 255, 0.95);
+    transition: all 0.3s ease;
+}
+
+#searchInput[dir="rtl"] {
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+#searchInput[dir="ltr"] {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 #searchInput:focus {
@@ -269,7 +291,6 @@ td a:hover {
 td.link-cell {
     direction: ltr;
     text-align: left;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 0; /* Forces the cell to respect the width constraints */
@@ -805,6 +826,14 @@ a .highlight,
         margin: 0 -10px;
         width: calc(100% + 20px);
         max-height: 60vh;
+        overflow-x: visible;
+        direction: rtl;
+    }
+    
+    .table {
+        min-width: unset;
+        width: 100%;
+        table-layout: fixed;
     }
     
     .table-dark th {
@@ -813,31 +842,59 @@ a .highlight,
     }
     
     td {
-        padding: 8px 5px !important;
+        padding: 8px 4px !important;
         font-size: 0.85rem;
+    }
+    
+    /* Reduce font size for channel name */
+    td:nth-child(1) {
+        font-size: 0.9rem;
+        word-wrap: break-word;
     }
     
     /* Adjust column widths for mobile */
     .col-name {
-        width: 25%;
+        width: 60%;
     }
     
     .col-link {
-        width: 22%;
+        width: 40%;
+        word-break: break-all;
         direction: ltr;
         text-align: left;
     }
     
     .col-status {
-        width: 15%;
+        width: 0;
+        display: none;
     }
     
     .col-tags {
-        width: 18%;
+        width: 0;
+        display: none;
     }
     
     .col-desc {
-        width: 20%;
+        width: 0;
+        display: none;
+    }
+    
+    /* Hide status column in mobile view */
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        display: none;
+    }
+    
+    /* Hide description column in mobile view */
+    .table th:nth-child(5),
+    .table td:nth-child(5) {
+        display: none;
+    }
+    
+    /* Hide tags column in mobile view */
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        display: none;
     }
     
     .tag {
@@ -922,6 +979,13 @@ a .highlight,
     .language-option {
         width: 100%;
     }
+    
+    /* Display link cells with text wrapping capability */
+    td.link-cell a {
+        white-space: normal;
+        word-break: break-all;
+        font-size: 0.8rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px to 767px) */
@@ -961,10 +1025,67 @@ a .highlight,
         margin: 0 -10px;
         width: calc(100% + 20px);
         max-height: 65vh;
+        overflow-x: visible;
+        direction: rtl;
+    }
+    
+    .table {
+        min-width: unset;
+        width: 100%;
+        table-layout: fixed;
     }
     
     td {
-        padding: 10px 8px !important;
+        padding: 8px 4px !important;
+    }
+    
+    /* Reduce font size for channel name */
+    td:nth-child(1) {
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
+    
+    /* Hide description column in landscape phones */
+    .table th:nth-child(5),
+    .table td:nth-child(5) {
+        display: none;
+    }
+    
+    /* Hide tags column in landscape phones */
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        display: none;
+    }
+    
+    /* Adjust column widths for landscape phones */
+    .col-name {
+        width: 60%;
+    }
+    
+    .col-link {
+        width: 40%;
+        word-break: break-all;
+    }
+    
+    .col-status {
+        width: 0;
+        display: none;
+    }
+    
+    .col-tags {
+        width: 0;
+        display: none;
+    }
+    
+    .col-desc {
+        width: 0;
+        display: none;
+    }
+    
+    /* Hide status column in landscape phones */
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        display: none;
     }
     
     .input-group {
@@ -997,6 +1118,13 @@ a .highlight,
     
     .logo {
         margin-top: 25px !important;
+    }
+    
+    /* Display link cells with text wrapping capability */
+    td.link-cell a {
+        white-space: normal;
+        word-break: break-all;
+        font-size: 0.8rem;
     }
 }
 
@@ -1098,15 +1226,16 @@ a .highlight,
 /* Fix for vertical screens and tablets in portrait mode */
 @media (orientation: portrait) {
     .table-responsive {
-        overflow-x: auto;
+        overflow-x: visible;
         max-height: 65vh;
-        direction: ltr; /* Maintain LTR direction for scrollbar positioning */
-        /* Use default scrollbar */
+        direction: rtl;
     }
     
     .table {
-        min-width: 800px; /* Ensure table has minimum width for scrolling */
-        direction: rtl; /* Maintain RTL direction for table content */
+        min-width: unset;
+        width: 100%;
+        direction: rtl;
+        table-layout: fixed;
     }
     
     /* Make sure the action buttons stack properly on portrait mode */
@@ -1144,25 +1273,47 @@ a .highlight,
     
     /* Adjust column widths for portrait mode */
     .col-name {
-        width: 22%;
+        width: 60%;
     }
     
     .col-link {
-        width: 20%;
+        width: 40%;
+        word-break: break-all;
         direction: ltr;
         text-align: left;
     }
     
     .col-status {
-        width: 12%;
+        width: 0;
+        display: none;
     }
     
     .col-tags {
-        width: 18%;
+        width: 0;
+        display: none;
     }
     
     .col-desc {
-        width: 28%;
+        width: 0;
+        display: none;
+    }
+    
+    /* Hide status column in portrait orientation */
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        display: none;
+    }
+    
+    /* Hide description column in portrait orientation */
+    .table th:nth-child(5),
+    .table td:nth-child(5) {
+        display: none;
+    }
+    
+    /* Hide tags column in portrait orientation */
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        display: none;
     }
     
     /* Improve modal display in portrait mode */
@@ -1194,6 +1345,23 @@ a .highlight,
     
     .logo {
         margin-top: 25px !important;
+    }
+    
+    /* Reduce font size for channel name */
+    td:nth-child(1) {
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
+    
+    /* Display link cells with text wrapping capability */
+    td.link-cell a {
+        white-space: normal;
+        word-break: break-all;
+        font-size: 0.8rem;
+    }
+    
+    td {
+        padding: 8px 4px !important;
     }
 }
 
@@ -1510,4 +1678,17 @@ a .highlight,
     color: #ffffff !important;
     border-color: transparent !important;
     cursor: default;
+}
+
+@media (max-width: 767px) {
+    td.link-cell {
+        white-space: normal;
+        max-width: none;
+        word-break: break-all;
+    }
+    
+    td.link-cell a {
+        white-space: normal;
+        word-break: break-all;
+    }
 } 

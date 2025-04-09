@@ -15,6 +15,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const supportModal = new bootstrap.Modal(document.getElementById('supportModal'));
     const contributeBtn = document.getElementById('contributeBtn');
     
+    // Change text direction in search box based on input language
+    searchInput.addEventListener('input', function() {
+        const text = this.value.trim();
+        const inputGroup = this.closest('.input-group');
+        
+        if (text === '') {
+            this.setAttribute('dir', 'ltr'); // Default is LTR
+            inputGroup.classList.remove('input-group-rtl');
+            return;
+        }
+        
+        // Detect Persian/Arabic text
+        if (/[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/.test(text)) {
+            this.setAttribute('dir', 'rtl'); // RTL for Persian/Arabic
+            inputGroup.classList.add('input-group-rtl');
+        } else {
+            this.setAttribute('dir', 'ltr'); // LTR for other languages
+            inputGroup.classList.remove('input-group-rtl');
+        }
+    });
+    
     // State variables
     let channelsData = [];
     let originalChannelsData = [];
@@ -30,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             languageModalTitle: 'Select Language',
             closeButton: 'بستن',
             pageTitle: 'کانال‌های تلگرام مرتبط با امنیت سایبری',
-            searchPlaceholder: 'Blue, Red, OSINT, CTI, ...',
+            searchPlaceholder: 'مثال: iranian, osint',
             noResults: 'هیچ نتیجه‌ای برای "{searchTerm}" یافت نشد.',
             noChannels: 'هیچ کانالی یافت نشد.',
             loadError: 'خطا در بارگذاری داده‌ها. لطفاً صفحه را مجدداً بارگذاری کنید.',
@@ -539,20 +560,40 @@ document.addEventListener('DOMContentLoaded', function() {
     // Adding comma usage guidance in the search field placeholder
     function updateSearchPlaceholder() {
         const t = translations[currentLanguage];
+        const inputGroup = searchInput.closest('.input-group');
+        
         // If translation for search guidance exists, we use it
         if (t.searchPlaceholder) {
             searchInput.placeholder = t.searchPlaceholder;
-            
-            // For Persian language, we set placeholder direction to LTR
-            if (currentLanguage === 'fa') {
-                searchInput.setAttribute('dir', 'ltr');
-            } else {
-                searchInput.setAttribute('dir', t.dir);
-            }
         } else {
             // Otherwise, we use the default text
             searchInput.placeholder = "Blue, Red, OSINT, CTI, ...";
-            searchInput.setAttribute('dir', 'ltr');
+        }
+        
+        // Check if there's text in the search box and adjust direction accordingly
+        const text = searchInput.value.trim();
+        if (text === '') {
+            // For empty search box, use default direction based on current language
+            if (currentLanguage === 'fa') {
+                searchInput.setAttribute('dir', 'ltr');
+                inputGroup.classList.remove('input-group-rtl');
+            } else {
+                searchInput.setAttribute('dir', t.dir);
+                if (t.dir === 'rtl') {
+                    inputGroup.classList.add('input-group-rtl');
+                } else {
+                    inputGroup.classList.remove('input-group-rtl');
+                }
+            }
+        } else {
+            // For existing text, set direction based on content
+            if (/[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/.test(text)) {
+                searchInput.setAttribute('dir', 'rtl');
+                inputGroup.classList.add('input-group-rtl');
+            } else {
+                searchInput.setAttribute('dir', 'ltr');
+                inputGroup.classList.remove('input-group-rtl');
+            }
         }
     }
     
