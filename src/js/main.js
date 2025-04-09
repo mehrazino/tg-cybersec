@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function filterChannels(searchTerm) {
-        if (!searchTerm) {
+        if (!searchTerm || searchTerm === '@') {
             renderTable();
             return;
         }
@@ -577,6 +577,29 @@ document.addEventListener('DOMContentLoaded', function() {
         const filteredChannels = channelsData.filter(channel => {
             // If we have multiple search terms, all of them must match the channel
             return searchTerms.every(term => {
+                // Check if the term starts with @ for channel ID search
+                if (term.startsWith('@') && term.length > 1) {
+                    // Remove @ from the term for comparison
+                    const channelId = term.substring(1).toLowerCase();
+                    
+                    // Check if the link contains the channel ID
+                    // For t.me links, extract the username part
+                    if (channel.link.includes('t.me/')) {
+                        const username = channel.link.split('t.me/')[1].toLowerCase();
+                        return username.includes(channelId);
+                    }
+                    // For links that are already in username format (starting with @)
+                    else if (channel.link.startsWith('@')) {
+                        const username = channel.link.substring(1).toLowerCase();
+                        return username.includes(channelId);
+                    }
+                    // For other links, check if they contain the channel ID
+                    else {
+                        return channel.link.toLowerCase().includes(channelId);
+                    }
+                }
+                
+                // Regular search for other terms
                 const nameMatch = channel.name.toLowerCase().includes(term.toLowerCase());
                 const linkMatch = channel.link.toLowerCase().includes(term.toLowerCase());
                 const descriptionMatch = channel.description.toLowerCase().includes(term.toLowerCase());
@@ -1091,4 +1114,4 @@ document.addEventListener('DOMContentLoaded', function() {
             return text;
         }
     }
-}); 
+});
