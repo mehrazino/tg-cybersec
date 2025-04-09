@@ -969,9 +969,13 @@
     "status": "Active",
     "tags": [
       "iranian",
-      "farsi"
+      "farsi",
+      "owasp",
+      "projectDiscovery",
+      "go",
+      "sdlc"
     ],
-    "description": ""
+    "description": "متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار"
   },
   {
     "name": "HackGit",
