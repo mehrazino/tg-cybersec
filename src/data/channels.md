@@ -2,7 +2,7 @@
 <!-- This file is auto-converted to channels.json using GitHub Actions -->
 
 | Channel Name | Link | Status | Tags | Description |
-|-------------|------|--------|------|-------------|
+|--------------|------|--------|------|-------------|
 | وب‌آموز | https://t.me/webamoozir | Active | farsi, iranian, cybercrime, sponsored, news | کانال بررسی و اطلاع‌رسانی جرایم سایبری |
 | مهراز آزاد | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal | کانال شخصی من |
 | مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Active | red, cti, osint, news, iranian | |
