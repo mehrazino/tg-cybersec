@@ -104,7 +104,7 @@
 | digMeMore | https://t.me/digmemore | Active | academy, iranian, farsi | متعلق به یاشار شاهین‌زاده |
 | BlackHat - UnpackME | https://t.me/DevirtualizeME | Active | reverse-engineering | |
 | Unk9vvN | https://t.me/Unk9vvN | Active | iranian, farsi, vulnerabilities, academy | |
-| HTTP Land | https://t.me/HTTPLand | Active | iranian, farsi, owasp, projectDiscovery, go, sdlc |متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار |
+| HTTP Land | https://t.me/HTTPLand | Active | iranian, farsi, owasp, projectDiscovery, go, sdlc | متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار |
 | HackGit | https://t.me/hackgit | Active | | |
 | مطالب رایگان و آزاد🎈 | https://t.me/TadavomnisT_channel | Active | iranian, farsi, personal | متعلق به بهراد |
 | Soxoj insides | https://t.me/soxoj_insides | Active | osint | |
