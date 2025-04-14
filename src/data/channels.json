@@ -1523,5 +1523,17 @@
       "farsi"
     ],
     "description": ""
+  },
+  {
+    "name": "ShadowBitsOfficial",
+    "link": "https://t.me/ShadowBitsOfficial",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "threat-actor",
+      "dataleak"
+    ],
+    "description": "کانال مدعی هک اطلاعات شرکت همراه‌اول"
   }
 ]
