@@ -159,3 +159,10 @@
 | EVE-NG | https://t.me/eve_ng_ir | Active | iranian, farsi | |
 | GothamSec | https://t.me/GothamSec | Active | iranian, farsi | |
 | ShadowBitsOfficial | https://t.me/ShadowBitsOfficial | Active | iranian, farsi, threat-actor, dataleak | کانال مدعی هک اطلاعات شرکت همراه‌اول |
+| Tapandegan | https://t.me/tapandegan_official | Active | iranian, farsi, threat-actor, dataleak | گروه تپندگان |
+| ZeroDay Research | https://t.me/zeroday_research | Active | iranian, bug-bounty, web | |
+| Dagen(security) | https://t.me/dagen_Security | Active | iranian, web, bug-bounty | |
+| Ｓｅｃ Ｎｏｔｅ | https://t.me/SecNote | Active | reverse-engineering | |
+| WrongBug☕️ | https://t.me/WrongBug | Active | books, iranian | |
+| ViperNułł | https://t.me/ViperNull | Active | iranian, farsi | |
+| ARVIN | https://t.me/arvinclub3 | Active | iranian, red | |
