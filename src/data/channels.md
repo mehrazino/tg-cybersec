@@ -4,7 +4,7 @@
 | Channel Name | Link | Status | Tags | Description |
 |--------------|------|--------|------|-------------|
 | وب‌آموز | https://t.me/webamoozir | Active | farsi, iranian, cybercrime, sponsored, news | کانال بررسی و اطلاع‌رسانی جرایم سایبری |
-| مهراز آزاد | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal, sponsored | کانال شخصی من |
+| Mehraz Logs | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal, sponsored | کانال شخصی من |
 | مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Active | red, cti, osint, news, iranian | |
 | OnHex | https://t.me/onhex_ir | Active | red, exploits, reverse-engineering, bug-bounty, news, iranian | |
 | APA-IUTcert | https://t.me/APA_IUTcert | Active | | |
