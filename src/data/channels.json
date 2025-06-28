@@ -1536,5 +1536,78 @@
       "dataleak"
     ],
     "description": "کانال مدعی هک اطلاعات شرکت همراه‌اول"
+  },
+  {
+    "name": "Tapandegan",
+    "link": "https://t.me/tapandegan_official",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "threat-actor",
+      "dataleak"
+    ],
+    "description": "گروه تپندگان"
+  },
+  {
+    "name": "ZeroDay Research",
+    "link": "https://t.me/zeroday_research",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "bug-bounty",
+      "web"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Dagen(security)",
+    "link": "https://t.me/dagen_Security",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "web",
+      "bug-bounty"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Ｓｅｃ Ｎｏｔｅ",
+    "link": "https://t.me/SecNote",
+    "status": "Active",
+    "tags": [
+      "reverse-engineering"
+    ],
+    "description": ""
+  },
+  {
+    "name": "WrongBug☕️",
+    "link": "https://t.me/WrongBug",
+    "status": "Active",
+    "tags": [
+      "books",
+      "iranian"
+    ],
+    "description": ""
+  },
+  {
+    "name": "ViperNułł",
+    "link": "https://t.me/ViperNull",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi"
+    ],
+    "description": ""
+  },
+  {
+    "name": "ARVIN",
+    "link": "https://t.me/arvinclub3",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "red"
+    ],
+    "description": ""
   }
 ]
