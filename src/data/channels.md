@@ -166,3 +166,5 @@
 | WrongBug☕️ | https://t.me/WrongBug | Active | books, iranian | |
 | ViperNułł | https://t.me/ViperNull | Active | iranian, farsi | |
 | ARVIN | https://t.me/arvinclub3 | Active | iranian, red | |
+| OS Internals | https://t.me/OxAA55 | Active | iranian, farsi, personal, academy | متعلق به ابوالفضل کاظمی |
+| Book Resource | https://t.me/Book_Resource | Active | books | |
