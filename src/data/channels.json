@@ -1609,5 +1609,26 @@
       "red"
     ],
     "description": ""
+  },
+  {
+    "name": "OS Internals",
+    "link": "https://t.me/OxAA55",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "personal",
+      "academy"
+    ],
+    "description": "متعلق به ابوالفضل کاظمی"
+  },
+  {
+    "name": "Book Resource",
+    "link": "https://t.me/Book_Resource",
+    "status": "Active",
+    "tags": [
+      "books"
+    ],
+    "description": ""
   }
 ]
