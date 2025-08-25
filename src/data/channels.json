@@ -25,6 +25,18 @@
     "description": "کانال شخصی من"
   },
   {
+    "name": "Mr. SAM",
+    "link": "https://t.me/NullError_ir",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "red",
+      "sponsored"
+    ],
+    "description": ""
+  },
+  {
     "name": "مرکز تحقیقاتی APT IRAN",
     "link": "https://t.me/APTIRAN",
     "status": "Active",
@@ -35,7 +47,7 @@
       "news",
       "iranian"
     ],
-    "description": ""
+    "description": "چنل مرتبط با گروه هکتیویستی Cyber Avengers"
   },
   {
     "name": "OnHex",
