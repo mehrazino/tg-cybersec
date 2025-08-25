@@ -176,3 +176,5 @@
 | *** تو کارمندی‌، باگ بزنید | https://t.me/KirTooKarmandi | Active | iranian, farsi, web, bug_bounty | |
 | DarkBit | https://t.me/DarkBitx | Active | iranian, farsi, red | |
 | ELITE DRAGON | https://t.me/ELITE_DRAGONS | Active | iranian, red | |
+| Hack Hive | https://t.me/Hackhive_channel | Active | iranian, vulnerabilities, cve, web, bug-bounty, red, farsi | |
+| The Chaos | https://t.me/Chaos_nexus_tech | Active | iranian, red, farsi, iot, tools | |
