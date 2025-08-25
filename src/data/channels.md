@@ -175,4 +175,4 @@
 | Dread_Net | https://t.me/Dread_Net | Active | iranian, farsi, red, bug-bounty, tools, osint | |
 | *** تو کارمندی‌، باگ بزنید | https://t.me/KirTooKarmandi | Active | iranian, farsi, web, bug_bounty | |
 | DarkBit | https://t.me/DarkBitx | Active | iranian, farsi, red | |
-| ELITE DRAGON | https://t.me/ELITE_DRAGONS | iranian, red | |
+| ELITE DRAGON | https://t.me/ELITE_DRAGONS | Active | iranian, red | |
