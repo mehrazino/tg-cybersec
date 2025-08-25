@@ -5,7 +5,8 @@
 |--------------|------|--------|------|-------------|
 | وب‌آموز | https://t.me/webamoozir | Active | farsi, iranian, cybercrime, sponsored, news | کانال بررسی و اطلاع‌رسانی جرایم سایبری |
 | Mehraz Logs | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal, sponsored | کانال شخصی من |
-| مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Active | red, cti, osint, news, iranian | |
+| Mr. SAM | https://t.me/NullError_ir | Active | iranian, farsi, red, sponsored | |
+| مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Active | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers |
 | OnHex | https://t.me/onhex_ir | Active | red, exploits, reverse-engineering, bug-bounty, news, iranian | |
 | APA-IUTcert | https://t.me/APA_IUTcert | Active | | |
 | Pentesting News | https://t.me/PentestingNews | Active | | |
