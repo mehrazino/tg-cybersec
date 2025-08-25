@@ -1640,5 +1640,29 @@
       "red"
     ],
     "description": ""
+  },
+  {
+    "name": "KavehAPT",
+    "link": "https://t.me/KavehAPT",
+    "status": "Active",
+    "tags": [
+      "network",
+      "iranian",
+      "red",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "رادیو زیرو پاد",
+    "link": "https://t.me/RadioZeroPod",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "podcast",
+      "radio"
+    ],
+    "description": ""
   }
 ]
