@@ -1688,5 +1688,28 @@
       "osint"
     ],
     "description": ""
+  },
+  {
+    "name": "*** تو کارمندی‌، باگ بزنید",
+    "link": "https://t.me/KirTooKarmandi",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "web",
+      "bug_bounty"
+    ],
+    "description": ""
+  },
+  {
+    "name": "DarkBit",
+    "link": "https://t.me/DarkBitx",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "red"
+    ],
+    "description": ""
   }
 ]
