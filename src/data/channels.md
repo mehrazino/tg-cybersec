@@ -169,7 +169,7 @@
 | OS Internals | https://t.me/OxAA55 | Active | iranian, farsi, personal, academy | متعلق به ابوالفضل کاظمی |
 | Book Resource | https://t.me/Book_Resource | Active | books | |
 | Freedom F0x | https://t.me/freedomf0x_official | Active | russian, red | |
-| KavehAPT | https://t.me/KavehAPT | Active | network, iranian, red, | |
+| KavehAPT | https://t.me/KavehAPT | Active | network, iranian, red | |
 | رادیو زیرو پاد | https://t.me/RadioZeroPod | Active | iranian, farsi, podcast, radio | |
 
-| Security as a Service | https://t.me/IRSecurity_as_a_service | Active | iranian, farsi, | متعلق به محمدمهدی قدرتی |
+| Security as a Service | https://t.me/IRSecurity_as_a_service | Active | iranian, farsi, personal | متعلق به محمدمهدی قدرتی |
