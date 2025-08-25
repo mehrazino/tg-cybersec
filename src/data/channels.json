@@ -1724,5 +1724,33 @@
       "red"
     ],
     "description": ""
+  },
+  {
+    "name": "Hack Hive",
+    "link": "https://t.me/Hackhive_channel",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "vulnerabilities",
+      "cve",
+      "web",
+      "bug-bounty",
+      "red",
+      "farsi"
+    ],
+    "description": ""
+  },
+  {
+    "name": "The Chaos",
+    "link": "https://t.me/Chaos_nexus_tech",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "red",
+      "farsi",
+      "iot",
+      "tools"
+    ],
+    "description": ""
   }
 ]
