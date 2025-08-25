@@ -168,3 +168,4 @@
 | ARVIN | https://t.me/arvinclub3 | Active | iranian, red | |
 | OS Internals | https://t.me/OxAA55 | Active | iranian, farsi, personal, academy | متعلق به ابوالفضل کاظمی |
 | Book Resource | https://t.me/Book_Resource | Active | books | |
+| Freedom F0x | https://t.me/freedomf0x_official | Active | russian, red | |
