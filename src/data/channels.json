@@ -1674,5 +1674,19 @@
       "radio"
     ],
     "description": ""
+  },
+  {
+    "name": "Dread_Net",
+    "link": "https://t.me/Dread_Net",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "red",
+      "bug-bounty",
+      "tools",
+      "osint"
+    ],
+    "description": ""
   }
 ]
