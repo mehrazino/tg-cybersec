@@ -172,3 +172,4 @@
 | KavehAPT | https://t.me/KavehAPT | Active | network, iranian, red, | |
 | رادیو زیرو پاد | https://t.me/RadioZeroPod | Active | iranian, farsi, podcast, radio | |
 
+| Security as a Service | https://t.me/IRSecurity_as_a_service | Active | iranian, farsi, | متعلق به محمدمهدی قدرتی |
