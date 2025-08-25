@@ -1752,5 +1752,17 @@
       "tools"
     ],
     "description": ""
+  },
+  {
+    "name": "/dev/null",
+    "link": "https://t.me/mrdevnull",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "web",
+      "network"
+    ],
+    "description": ""
   }
 ]
