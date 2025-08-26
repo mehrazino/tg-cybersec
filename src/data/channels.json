@@ -74,7 +74,9 @@
     "name": "Pentesting News",
     "link": "https://t.me/PentestingNews",
     "status": "Active",
-    "tags": [],
+    "tags": [
+      "news"
+    ],
     "description": ""
   },
   {
