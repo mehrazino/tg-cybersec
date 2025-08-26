@@ -9,7 +9,7 @@
 | مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Active | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers |
 | OnHex | https://t.me/onhex_ir | Active | red, exploits, reverse-engineering, bug-bounty, news, iranian | |
 | APA-IUTcert | https://t.me/APA_IUTcert | Active | | |
-| Pentesting News | https://t.me/PentestingNews | Active | | |
+| Pentesting News | https://t.me/PentestingNews | Active | news | |
 | GO-TO CVE | https://t.me/GOTOCVE | Active | cve, vulnerabilities | |
 | Netsec | https://t.me/RNetsec | Active | | |
 | Cyber Threat Intelligence | https://t.me/ctinow | Active | cti | |
