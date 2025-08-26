@@ -180,3 +180,4 @@
 | Hack Hive | https://t.me/Hackhive_channel | Active | iranian, vulnerabilities, cve, web, bug-bounty, red, farsi | |
 | The Chaos | https://t.me/Chaos_nexus_tech | Active | iranian, red, farsi, iot, tools | |
 | /dev/null | https://t.me/mrdevnull | Active | iranian, farsi, web, network | |
+| Mandegar SEC🎩 | https://t.me/mandegar_sec | Active | iranian, farsi, red, tools, bug-bounty, web | | 
