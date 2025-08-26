@@ -76,7 +76,7 @@
 | APT ANALYSIS | https://t.me/APTANALYSIS | Active | | |
 | Dark Side of a Dark Mind | https://t.me/darksideofdarkmind | Active | | |
 | TolueAcademy | https://t.me/toluerise | Active | academy, iranian | |
-| Ai000 Cybernetics QLab | https://t.me/aioooir | Active | academy, group, iranian, farsi | متعلق به میلاد کهساری |
+| Ai000 Cybernetics QLab | https://t.me/aioooir | Active | academy, team, iranian, farsi | متعلق به میلاد کهساری |
 | IACS | https://t.me/ics_cert | Active | iranian, farsi, ot, scada, ics | |
 | Code Review | https://t.me/CodeReview0o0 | Active | farsi, iranian | |
 | Safe Defense | https://t.me/safe_defense | Active | farsi, iranian, podcast, radio | |
