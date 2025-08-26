@@ -1792,5 +1792,15 @@
       "web"
     ],
     "description": ""
+  },
+  {
+    "name": "Green Fire",
+    "link": "https://t.me/GreenFire_ir",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi"
+    ],
+    "description": ""
   }
 ]
