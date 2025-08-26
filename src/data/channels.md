@@ -140,7 +140,7 @@
 | Cʰᵃᵐʳᵒˢʰ | https://t.me/ch4mr0sh | Active | iranian, farsi, reverse-engineering | |
 | H4shur ｜ هاشور ｜ <H4>shur | https://t.me/h4shur | Active | iranian, farsi | |
 | VSEC ｜ آموزشگاه امنیت اطلاعات | https://t.me/VSEC_academy | Active | iranian, farsi, academy | |
-| Deep Injection ｜ امنیت سایبری | https://t.me/deep_injection | Active | iranian, farsi | |
+| Deep Injection ｜ امنیت سایبری | https://t.me/deep_injection | Inactive | iranian, farsi | |
 | Bug Bounty Tools & Writeups ｜ Hide Club | https://t.me/Hide_Club | Active | webapp, bug-bounty | |
 | 0Day.Today ｜ Learn Exploit ｜ Zero World ｜ Dark web ｜ | https://t.me/LearnExploit | Active | iranian, farsi, academy | |
 | امنیت سایبری ｜ Cyber Security | https://t.me/intsec | Active | iranian, farsi, news | |
