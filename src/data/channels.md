@@ -124,7 +124,7 @@
 | Ninja coder | https://t.me/ninjacod3r | Active | webapp, pentest, farsi, iranian, bug-bounty | |
 | Peneter Media | https://t.me/Peneter_Media | Active | iranian, farsi, red | |
 | Hacking Assets | https://t.me/HackingAssets | Active | courses | |
-| SCARPA ｜ AI Security ☢️ | https://t.me/SACARPA | Active | iranian, farsi, ai | |
+| SCARPA ｜ AI Security ☢️ | https://t.me/SACARPA | Inactive | iranian, farsi, ai | |
 | Sherlock Holmes of the digital age… | https://t.me/ibederov_en | Active | osint, russian, personal | |
 | Geek girl 👩‍💻 | https://t.me/geeekgirls | Active | iranian | |
 | Forensic In persian | https://t.me/forensicIR | Active | forensics | |
