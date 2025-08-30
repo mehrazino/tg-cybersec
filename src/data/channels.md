@@ -52,7 +52,7 @@
 | Library Sec Official | https://t.me/LibrarySecOfficial | Active | books, iranian | |
 | Red Team Village | https://t.me/RedTeamVillageRTV | Active | iranian, red | |
 | sn0whacks | https://t.me/sn0whacks | Active | farsi, iranian, vulnerabilities | |
-| Tutoriales Apk | https://t.me/tutoriales_apk | Active | reverse-engineering, android, mobile | |
+| Tutoriales Apk | https://t.me/tutoriales_apk | Inactive | reverse-engineering, android, mobile | |
 | Security Researcher | https://t.me/OsSecurityResearcher | Inactive | farsi | |
 | InfoSecTube | https://t.me/InfoSecTube | Active | iranian | |
 | Web Application Security | https://t.me/web_appsec | Active | webapp, farsi | |
