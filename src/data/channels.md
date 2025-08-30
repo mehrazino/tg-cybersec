@@ -105,11 +105,11 @@
 | digMeMore | https://t.me/digmemore | Active | academy, iranian, farsi | متعلق به یاشار شاهین‌زاده |
 | BlackHat - UnpackME | https://t.me/DevirtualizeME | Inactive | reverse-engineering | |
 | Unk9vvN | https://t.me/Unk9vvN | Active | iranian, farsi, vulnerabilities, academy | |
-| HTTP Land | https://t.me/HTTPLand | Active | iranian, farsi, owasp, projectDiscovery, go, sdlc | متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار |
+| HTTP Land | https://t.me/HTTPLand | Inactive | iranian, farsi, owasp, projectDiscovery, go, sdlc | متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار |
 | HackGit | https://t.me/hackgit | Active | | |
 | مطالب رایگان و آزاد🎈 | https://t.me/TadavomnisT_channel | Active | iranian, farsi, personal | متعلق به بهراد |
 | Soxoj insides | https://t.me/soxoj_insides | Active | osint | |
-| dukera | https://t.me/dukera_ch | Active | osint | |
+| OSINT mindset | https://t.me/osint_mindset | Active | osint | |
 | Open Source intelligence [ OSINT ] | https://t.me/OsintBlackBox | Inactive | osint | کانال جدید: https://t.me/OsintGit |
 | Network books ｜ Magazine | https://t.me/book_network_ir | Active | | |
 | Geek Book 👩‍💻 | https://t.me/geekboook | Active | books | |
