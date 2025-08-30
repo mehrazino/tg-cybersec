@@ -74,7 +74,7 @@
 | کانال بایت امن | https://t.me/securebyte | Active | farsi, academy | |
 | OSINT ● Investigations ● Cyber Search🔎 | https://t.me/freeosint | Active | russian, osint | |
 | APT ANALYSIS | https://t.me/APTANALYSIS | Active | | |
-| Dark Side of a Dark Mind | https://t.me/darksideofdarkmind | Active | | |
+| Dark Side of a Dark Mind | https://t.me/darksideofdarkmind | Inactive | | |
 | TolueAcademy | https://t.me/toluerise | Active | academy, iranian | |
 | Ai000 Cybernetics QLab | https://t.me/aioooir | Active | academy, team, iranian, farsi | متعلق به میلاد کهساری |
 | IACS | https://t.me/ics_cert | Active | iranian, farsi, ot, scada, ics | |
