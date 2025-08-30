@@ -980,7 +980,7 @@
   {
     "name": "HTTP Land",
     "link": "https://t.me/HTTPLand",
-    "status": "Active",
+    "status": "Inactive",
     "tags": [
       "iranian",
       "farsi",
@@ -1019,8 +1019,8 @@
     "description": ""
   },
   {
-    "name": "dukera",
-    "link": "https://t.me/dukera_ch",
+    "name": "OSINT mindset",
+    "link": "https://t.me/osint_mindset",
     "status": "Active",
     "tags": [
       "osint"
