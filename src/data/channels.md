@@ -125,7 +125,7 @@
 | Peneter Media | https://t.me/Peneter_Media | Active | iranian, farsi, red | |
 | Hacking Assets | https://t.me/HackingAssets | Active | courses | |
 | SCARPA ｜ AI Security ☢️ | https://t.me/SACARPA | Inactive | iranian, farsi, ai | |
-| Sherlock Holmes of the digital age… | https://t.me/ibederov_en | Active | osint, russian, personal | |
+| Sherlock Holmes of the digital age… | https://t.me/ibederov_en | Inactive | osint, russian, personal | |
 | Geek girl 👩‍💻 | https://t.me/geeekgirls | Active | iranian | |
 | Forensic In persian | https://t.me/forensicIR | Active | forensics | |
 | Hypersec | https://t.me/hypersec | Active | company, academy, team, iranian, farsi, blue | |
