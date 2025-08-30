@@ -103,7 +103,7 @@
 | Blue Team | https://t.me/BlueTeamKit | Active | blue, iranian | |
 | P.F.K Security | https://t.me/PfkSecurity | Active | iranian, farsi | |
 | digMeMore | https://t.me/digmemore | Active | academy, iranian, farsi | متعلق به یاشار شاهین‌زاده |
-| BlackHat - UnpackME | https://t.me/DevirtualizeME | Active | reverse-engineering | |
+| BlackHat - UnpackME | https://t.me/DevirtualizeME | Inactive | reverse-engineering | |
 | Unk9vvN | https://t.me/Unk9vvN | Active | iranian, farsi, vulnerabilities, academy | |
 | HTTP Land | https://t.me/HTTPLand | Active | iranian, farsi, owasp, projectDiscovery, go, sdlc | متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار |
 | HackGit | https://t.me/hackgit | Active | | |
