@@ -633,7 +633,7 @@
   },
   {
     "name": "⚔️ Ethical Hacking ⚔️",
-    "link": "https://t.me/sajjadteymouri",
+    "link": "https://t.me/Sajjad_Teymouri",
     "status": "Active",
     "tags": [
       "iranian",
@@ -1799,6 +1799,57 @@
     "tags": [
       "iranian",
       "farsi"
+    ],
+    "description": ""
+  },
+  {
+    "name": "ThreatStrix",
+    "link": "https://t.me/ThreatStrix",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "blue"
+    ],
+    "description": ""
+  },
+  {
+    "name": "HackMeLocal",
+    "link": "https://t.me/HackMeLocal",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "pentest",
+      "farsi",
+      "cve",
+      "vulnerabilities",
+      "web"
+    ],
+    "description": ""
+  },
+  {
+    "name": "ZeroSec_team",
+    "link": "https://t.me/ZeroSec_team",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "pentest",
+      "farsi",
+      "cve",
+      "vulnerabilities",
+      "web",
+      "exploits"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Hack Hive",
+    "link": "https://t.me/Hackhive_channel",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "web",
+      "owasp"
     ],
     "description": ""
   }
