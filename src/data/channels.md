@@ -70,7 +70,7 @@
 | HackerOne | https://t.me/HackerOne | Active | iranian | |
 | CyberSecurity Shield | https://t.me/CySecShield | Active | iranian | |
 | TryHackBox Story | https://t.me/TryHackBoxStory | Active | farsi | |
-| ⚔️ Ethical Hacking ⚔️ | https://t.me/sajjadteymouri | Active | iranian, farsi, personal | متعلق به سجاد تیموری |
+| ⚔️ Ethical Hacking ⚔️ | https://t.me/Sajjad_Teymouri | Active | iranian, farsi, personal | متعلق به سجاد تیموری |
 | کانال بایت امن | https://t.me/securebyte | Active | farsi, academy | |
 | OSINT ● Investigations ● Cyber Search🔎 | https://t.me/freeosint | Active | russian, osint | |
 | APT ANALYSIS | https://t.me/APTANALYSIS | Active | | |
@@ -182,3 +182,7 @@
 | /dev/null | https://t.me/mrdevnull | Active | iranian, farsi, web, network | |
 | Mandegar SEC🎩 | https://t.me/mandegar_sec | Active | iranian, farsi, red, tools, bug-bounty, web | | 
 | Green Fire | https://t.me/GreenFire_ir | Active | iranian, farsi | |
+| ThreatStrix | https://t.me/ThreatStrix | Active | iranian, farsi, blue | |
+| HackMeLocal | https://t.me/HackMeLocal | Active | iranian, pentest, farsi, cve, vulnerabilities, web | |
+| ZeroSec_team | https://t.me/ZeroSec_team | Active | iranian, pentest, farsi, cve, vulnerabilities, web, exploits | |
+| Hack Hive | https://t.me/Hackhive_channel | Active | iranian, web, owasp | |
