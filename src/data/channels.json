@@ -1328,7 +1328,7 @@
     "description": ""
   },
   {
-    "name": "VSEC ｜ آموزشگاه امنیت اطلاعات",
+    "name": "VSEC Academy ｜ آموزشگاه مجازی",
     "link": "https://t.me/VSEC_academy",
     "status": "Active",
     "tags": [
@@ -1850,6 +1850,41 @@
       "iranian",
       "web",
       "owasp"
+    ],
+    "description": ""
+  },
+  {
+    "name": "ExploitChi",
+    "link": "https://t.me/ExploitChi",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "exploits",
+      "vulnerabilities",
+      "farsi",
+      "red"
+    ],
+    "description": ""
+  },
+  {
+    "name": "4:20 دوره های امنیتی",
+    "link": "https://t.me/secsnap",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "courses"
+    ],
+    "description": ""
+  },
+  {
+    "name": "HuntLearn",
+    "link": "https://t.me/huntlearn",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "academy"
     ],
     "description": ""
   }
