@@ -189,3 +189,4 @@
 | ExploitChi | https://t.me/ExploitChi | Active | iranian, exploits, vulnerabilities, farsi, red | |
 | 4:20 دوره های امنیتی | https://t.me/secsnap | Active | iranian, farsi, courses | |
 | HuntLearn | https://t.me/huntlearn | Active | iranian, farsi, academy | |
+| La3tknight | https://t.me/la5tknight | Active | iranian, farsi, red, osint, tools, cti, exploits, cves, vulnerabilities | |
