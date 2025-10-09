@@ -139,7 +139,7 @@
 | Blue Team ｜ SOC ｜ DFIR ｜ Cloud Security | https://t.me/socanalyst | Active | incident-response, blue, forensics | |
 | Cʰᵃᵐʳᵒˢʰ | https://t.me/ch4mr0sh | Active | iranian, farsi, reverse-engineering | |
 | H4shur ｜ هاشور ｜ <H4>shur | https://t.me/h4shur | Active | iranian, farsi | |
-| VSEC ｜ آموزشگاه امنیت اطلاعات | https://t.me/VSEC_academy | Active | iranian, farsi, academy | |
+| VSEC Academy ｜ آموزشگاه مجازی | https://t.me/VSEC_academy | Active | iranian, farsi, academy | |
 | Deep Injection ｜ امنیت سایبری | https://t.me/deep_injection | Inactive | iranian, farsi | |
 | Bug Bounty Tools & Writeups ｜ Hide Club | https://t.me/Hide_Club | Active | webapp, bug-bounty | |
 | 0Day.Today ｜ Learn Exploit ｜ Zero World ｜ Dark web ｜ | https://t.me/LearnExploit | Active | iranian, farsi, academy | |
@@ -186,3 +186,6 @@
 | HackMeLocal | https://t.me/HackMeLocal | Active | iranian, pentest, farsi, cve, vulnerabilities, web | |
 | ZeroSec_team | https://t.me/ZeroSec_team | Active | iranian, pentest, farsi, cve, vulnerabilities, web, exploits | |
 | Hack Hive | https://t.me/Hackhive_channel | Active | iranian, web, owasp | |
+| ExploitChi | https://t.me/ExploitChi | Active | iranian, exploits, vulnerabilities, farsi, red | |
+| 4:20 دوره های امنیتی | https://t.me/secsnap | Active | iranian, farsi, courses | |
+| HuntLearn | https://t.me/huntlearn | Active | iranian, farsi, academy | |
