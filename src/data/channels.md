@@ -190,3 +190,4 @@
 | 4:20 دوره های امنیتی | https://t.me/secsnap | Active | iranian, farsi, courses | |
 | HuntLearn | https://t.me/huntlearn | Active | iranian, farsi, academy | |
 | La3tknight | https://t.me/la5tknight | Active | iranian, farsi, red, osint, tools, cti, exploits, cves, vulnerabilities | |
+| آکادمی آموزشی روزبه | https://t.me/roozbeh_learning | Active | iranian, academy, blue, farsi | |
