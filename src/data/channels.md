@@ -192,3 +192,4 @@
 | HuntLearn | https://t.me/huntlearn | Active | iranian, farsi, academy | |
 | La3tknight | https://t.me/la5tknight | Active | iranian, farsi, red, osint, tools, cti, exploits, cves, vulnerabilities | |
 | آکادمی آموزشی روزبه | https://t.me/roozbeh_learning | Active | iranian, academy, blue, farsi | |
+| Cyber.vision | https://t.me/pythonwithmedev | Active | iranian, farsi, ics, blue | |
