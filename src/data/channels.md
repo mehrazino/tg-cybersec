@@ -175,7 +175,7 @@
 | Security as a Service | https://t.me/IRSecurity_as_a_service | Active | iranian, farsi, personal | متعلق به آقای محمدمهدی قدرتی |
 | رادیو زیرو پاد | https://t.me/RadioZeroPod | Active | iranian, farsi, podcast, radio | |
 | Dread_Net | https://t.me/Dread_Net | Active | iranian, farsi, red, bug-bounty, tools, osint | |
-| *** تو کارمندی‌، باگ بزنید | https://t.me/KirTooKarmandi | Active | iranian, farsi, web, bug_bounty | |
+| *** تو کارمندی‌، باگ بزنید | https://t.me/KirTooKarmandi | Active | iranian, farsi, web, bug-bounty | |
 | DarkBit | https://t.me/DarkBitx | Active | iranian, farsi, red | |
 | ELITE DRAGON | https://t.me/ELITE_DRAGONS | Active | iranian, red | |
 | Hack Hive | https://t.me/Hackhive_channel | Active | iranian, vulnerabilities, cve, web, bug-bounty, red, farsi | |
