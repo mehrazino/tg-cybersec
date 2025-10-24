@@ -6,11 +6,11 @@
     "tags": [
       "farsi",
       "iranian",
-      "cybercrime",
+      "cyber-crime",
       "sponsored",
       "news"
     ],
-    "description": "کانال بررسی و اطلاع‌رسانی جرایم سایبری"
+    "description": "کانال بررسی و اطلاع‌رسانی جرایم سایبری، متعلق به آقای محمد جرجندی‌"
   },
   {
     "name": "Mehraz Logs",
@@ -192,7 +192,7 @@
       "academy",
       "farsi"
     ],
-    "description": ""
+    "description": "متعلق به آقایان میثم منصف و علیرضا نورکاظمی"
   },
   {
     "name": "The Bug Bounty Hunter",
@@ -229,7 +229,7 @@
       "academy",
       "farsi"
     ],
-    "description": "متعلق به ابراهیم اخزری"
+    "description": "متعلق به آقای ابراهیم اخزری"
   },
   {
     "name": "Codeby",
@@ -248,7 +248,7 @@
       "iranian",
       "personal"
     ],
-    "description": "متعلق به علیرضا قهرود"
+    "description": "متعلق به آقای علیرضا قهرود"
   },
   {
     "name": "SoheilSec",
@@ -437,7 +437,7 @@
       "farsi",
       "academy"
     ],
-    "description": ""
+    "description": "Sanctioned"
   },
   {
     "name": "Hackers.Zone - ناحیه هکرها",
@@ -446,7 +446,7 @@
     "tags": [
       "farsi"
     ],
-    "description": ""
+    "description": "متعلق به آقای ابراهیم شفیعی"
   },
   {
     "name": "Library Sec Official",
@@ -653,7 +653,7 @@
       "farsi",
       "personal"
     ],
-    "description": "متعلق به سجاد تیموری"
+    "description": "متعلق به آقای سجاد تیموری"
   },
   {
     "name": "کانال بایت امن",
@@ -709,7 +709,7 @@
       "iranian",
       "farsi"
     ],
-    "description": "متعلق به میلاد کهساری"
+    "description": "متعلق به آقای میلاد کهساری"
   },
   {
     "name": "IACS",
@@ -763,7 +763,8 @@
     "tags": [
       "iranian",
       "academy",
-      "farsi"
+      "farsi",
+      "books"
     ],
     "description": ""
   },
@@ -895,7 +896,7 @@
       "farsi",
       "iranian"
     ],
-    "description": ""
+    "description": "متعلق به آقای وحید علمی"
   },
   {
     "name": "Nova Group",
@@ -967,7 +968,7 @@
       "iranian",
       "farsi"
     ],
-    "description": "متعلق به یاشار شاهین‌زاده"
+    "description": "متعلق به آقای یاشار شاهین‌زاده"
   },
   {
     "name": "BlackHat - UnpackME",
@@ -1002,7 +1003,7 @@
       "go",
       "sdlc"
     ],
-    "description": "متعلق به مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار"
+    "description": "متعلق به آقای مسعود ابدال، اشتراک‌گذاری دانش و تحقیقات پیرامون امنیت تهاجمی نرم‌افزار"
   },
   {
     "name": "HackGit",
@@ -1020,7 +1021,7 @@
       "farsi",
       "personal"
     ],
-    "description": "متعلق به بهراد"
+    "description": "متعلق به آقا بهراد"
   },
   {
     "name": "Soxoj insides",
@@ -1532,7 +1533,7 @@
       "blue",
       "personal"
     ],
-    "description": "متعلق به احمدرضا اسدی"
+    "description": "متعلق به آقای احمدرضا اسدی"
   },
   {
     "name": "EVE-NG",
@@ -1649,7 +1650,7 @@
       "personal",
       "academy"
     ],
-    "description": "متعلق به ابوالفضل کاظمی"
+    "description": "متعلق به آقای ابوالفضل کاظمی"
   },
   {
     "name": "Book Resource",
@@ -1690,7 +1691,7 @@
       "farsi",
       "personal"
     ],
-    "description": "متعلق به محمدمهدی قدرتی"
+    "description": "متعلق به آقای محمدمهدی قدرتی"
   },
   {
     "name": "رادیو زیرو پاد",
@@ -1941,5 +1942,17 @@
       "blue"
     ],
     "description": ""
+  },
+  {
+    "name": "کودتای خزنده طرح صیانت",
+    "link": "https://t.me/ToofanReports",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "cyber-crime",
+      "news"
+    ],
+    "description": "متعلق به آقای صالح سوزنچی"
   }
 ]
