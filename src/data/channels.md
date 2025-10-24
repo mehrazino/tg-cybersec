@@ -7,7 +7,7 @@
 | Mehraz Logs | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal, sponsored | کانال شخصی من |
 | Sec gap | https://t.me/sec_gap | Active | iranian, farsi, groups, chat, sponsored | گروه عمومی چت |
 | Mr. SAM | https://t.me/NullError_ir | Active | iranian, farsi, red | |
-| مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Active | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers |
+| مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Inactive | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers |
 | OnHex | https://t.me/onhex_ir | Active | red, exploits, reverse-engineering, bug-bounty, news, iranian | |
 | APA-IUTcert | https://t.me/APA_IUTcert | Active | | |
 | Pentesting News | https://t.me/PentestingNews | Active | news | |
