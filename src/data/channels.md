@@ -140,7 +140,7 @@
 | Blue Team ｜ SOC ｜ DFIR ｜ Cloud Security | https://t.me/socanalyst | Active | incident-response, blue, forensics | |
 | Cʰᵃᵐʳᵒˢʰ | https://t.me/ch4mr0sh | Active | iranian, farsi, reverse-engineering | |
 | H4shur ｜ هاشور ｜ <H4>shur | https://t.me/h4shur | Active | iranian, farsi | |
-| VSEC Academy ｜ آموزشگاه مجازی | https://t.me/VSEC_academy | Active | iranian, farsi, academy | |
+| VSEC Academy ｜ آموزشگاه مجازی | https://t.me/VSEC_academy | Active | iranian, farsi, academy, personal, red, reverse-engineering, malware-analysis | متعلق به آقای نیما نیکجو |
 | Deep Injection ｜ امنیت سایبری | https://t.me/deep_injection | Inactive | iranian, farsi | |
 | Bug Bounty Tools & Writeups ｜ Hide Club | https://t.me/Hide_Club | Active | webapp, bug-bounty | |
 | 0Day.Today ｜ Learn Exploit ｜ Zero World ｜ Dark web ｜ | https://t.me/LearnExploit | Active | iranian, farsi, academy | |
