@@ -194,3 +194,7 @@
 | آکادمی آموزشی روزبه | https://t.me/roozbeh_learning | Active | iranian, academy, blue, farsi | |
 | Cyber.vision | https://t.me/pythonwithmedev | Active | iranian, farsi, ics, blue | |
 | کودتای خزنده طرح صیانت | https://t.me/ToofanReports | Active | iranian, farsi, cyber-crime, news | متعلق به آقای صالح سوزنچی |
+| network tips and learning | https://t.me/network_tips | Active | iranian, farsi, network, personal | متعلق به آقای علی کلانتری |
+| Threat Hunting Father 🦔 | https://t.me/ThreatHuntingFather | Active | russian, cti | |
+| ReverseEngineering | https://t.me/reverseengine | Active | farsi, iranian, reverse-engineering | |
+
