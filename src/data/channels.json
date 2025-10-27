@@ -1958,5 +1958,38 @@
       "news"
     ],
     "description": "متعلق به آقای صالح سوزنچی"
+  },
+  {
+    "name": "network tips and learning",
+    "link": "https://t.me/network_tips",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "network",
+      "personal"
+    ],
+    "description": "متعلق به آقای علی کلانتری"
+  },
+  {
+    "name": "Threat Hunting Father 🦔",
+    "link": "https://t.me/ThreatHuntingFather",
+    "status": "Active",
+    "tags": [
+      "russian",
+      "cti"
+    ],
+    "description": ""
+  },
+  {
+    "name": "ReverseEngineering",
+    "link": "https://t.me/reverseengine",
+    "status": "Active",
+    "tags": [
+      "farsi",
+      "iranian",
+      "reverse-engineering"
+    ],
+    "description": ""
   }
 ]
