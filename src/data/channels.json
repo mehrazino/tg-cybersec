@@ -25,19 +25,6 @@
     "description": "کانال شخصی من"
   },
   {
-    "name": "Sec gap",
-    "link": "https://t.me/sec_gap",
-    "status": "Active",
-    "tags": [
-      "iranian",
-      "farsi",
-      "groups",
-      "chat",
-      "sponsored"
-    ],
-    "description": "گروه عمومی چت"
-  },
-  {
     "name": "Mr. SAM",
     "link": "https://t.me/NullError_ir",
     "status": "Active",
@@ -1989,6 +1976,17 @@
       "farsi",
       "iranian",
       "reverse-engineering"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Paskoocheh پس‌کوچه",
+    "link": "https://t.me/paskoocheh",
+    "status": "Active",
+    "tags": [
+      "farsi",
+      "news",
+      "iranian"
     ],
     "description": ""
   }
