@@ -28,16 +28,16 @@
 | Codeby | https://t.me/codeby_sec | Active | russian | |
 | CISO as a Service | https://t.me/CISOasaService | Active | iranian, personal | متعلق به آقای علیرضا قهرود |
 | SoheilSec | https://t.me/learnpentest | Active | iranian, red | |
-| cRyPtHoN™ INFOSEC (EN) | https://t.me/cRyPtHoN_INFOSEC_EN | Active | news | |
+| cRyPtHoN™ INFOSEC (EN) | https://t.me/cRyPtHoN_INFOSEC_EN | Active | news | @cRyPtHoN_INFOSEC_EN_2 |
 | Peneter Tools | https://t.me/Peneter_Tools | Active | | |
 | GitBook | https://t.me/GitBook_s | Active | | |
 | Threat Hunting Usecases | https://t.me/threat_hunting_usecases | Active | cti | |
 | -CyberSecurityTechnologies- | https://t.me/CyberSecurityTechnologies | Active | | |
-| CYBER SPECTRUM 🩵 | https://t.me/cyber_spectrum | Active | books | |
+| CYBER SPECTRUM 🩵 | https://t.me/cyber_spectrum | Inactive | books | |
 | vx-underground | https://t.me/vxunderground | Active | red, malware | |
 | Threat Hunting DFIR | https://t.me/DFIRHunting | Active | forensics | |
 | cKure | https://t.me/cKure | Active | | |
-| Source Byte | https://t.me/source_byt3 | Active | iranian, reverse-engineering | |
+| Source Byte | https://t.me/source_byt3 | Inactive | iranian, reverse-engineering | @sourcebyte |
 | Blue Team Alerts | https://t.me/blueteamalerts | Active | blue | |
 | Osint Plus | https://t.me/ir_osint | Active | osint, farsi | |
 | Offensive Twitter | https://t.me/OffensiveTwitter | Active | red | |
@@ -64,7 +64,7 @@
 | Cyber Guardians | https://t.me/IRCyberGuardians | Active | | |
 | Ping Channel | https://t.me/PingChannel | Active | farsi, iranian, news | |
 | init 0 | https://t.me/RunlevelZer0 | Active | iranian | |
-| RedTeam | https://t.me/RedTeamAPT | Active | red, academy, farsi | |
+| RedTeam | https://t.me/RedTeamAPT | Inactive | red, academy, farsi | |
 | AbhiTheModder | https://t.me/AbhiTheM0dder | Active | reverse-engineering, mobile | |
 | Caster | https://t.me/castercanal | Active | russian | |
 | HackerOne | https://t.me/HackerOne | Active | iranian | |
@@ -82,7 +82,7 @@
 | Safe Defense | https://t.me/safe_defense | Active | farsi, iranian, podcast, radio | |
 | iDeFense | https://t.me/iDefense | Active | farsi, iranian | |
 | لیان - آموزش امنیت و تست‌نفوذ | https://t.me/AcademyLian | Active | iranian, academy, farsi, books | |
-| DEVEXPL🧠IT | https://t.me/Devexploit | Active | | |
+| DEVEXPL🧠IT | https://t.me/Devexploit | Inactive | | |
 | Hide01 | https://t.me/Hide01 | Active | iranian, courses | |
 | EthSecurity | https://t.me/EthSecurity1 | Active | | |
 | Infosec Fortress | https://t.me/Infosec_Fortress | Active | iranian, reverse-engineering | |
@@ -121,39 +121,39 @@
 | r0 Crew (Channel) | https://t.me/R0_Crew | Active | reverse-engineering, exploits | |
 | SOC Library | https://t.me/soclibrary | Active | blue, iranian, farsi, academy | |
 | CiferTech | https://t.me/CiferTech | Active | iranian, hardwares | |
-| Ninja coder | https://t.me/ninjacod3r | Active | webapp, pentest, farsi, iranian, bug-bounty | |
+| Ninja coder | https://t.me/ninjacod3r | Inactive | webapp, pentest, farsi, iranian, bug-bounty | |
 | Peneter Media | https://t.me/Peneter_Media | Active | iranian, farsi, red | |
 | Hacking Assets | https://t.me/HackingAssets | Active | courses | |
 | SCARPA ｜ AI Security ☢️ | https://t.me/SACARPA | Inactive | iranian, farsi, ai | |
 | Sherlock Holmes of the digital age… | https://t.me/ibederov_en | Inactive | osint, russian, personal | |
-| Geek girl 👩‍💻 | https://t.me/geeekgirls | Active | iranian | |
+| Geek girl 👩‍💻 | https://t.me/geeekgirls | Inactive | iranian | |
 | Forensic In persian | https://t.me/forensicIR | Active | forensics | |
 | Hypersec | https://t.me/hypersec | Active | company, academy, team, iranian, farsi, blue | |
 | ..: لیک‌فا ｜ Leakfa :.. | https://t.me/leakfarsi | Active | iranian, farsi, data, news | سامانه ردیابی نشت اطلاعات ایرانیان https://leakfa.com/search |
 | Spider Crew ｜ Bug Bounty Tips, Tools, Writeups & Exploits | https://t.me/Spider_Crew | Active | bug-bounty | |
 | Crusaders | https://t.me/ArgentCrusader0 | Active | iranian, osint, farsi | |
-| OsintGit | https://t.me/OsintGit | Active | osint | |
+| OsintGit | https://t.me/OsintGit | Inactive | osint | |
 | Mind Hunter Community | https://t.me/Mind_Hunter_Community | Active | red, collection, iranian, farsi, courses | |
 | SecureCoders | https://t.me/securecoders | Active | iranian, farsi | |
 | OSIntOps News | https://t.me/Osintlatestnews | Active | news, osint | |
 | Blue Team ｜ SOC ｜ DFIR ｜ Cloud Security | https://t.me/socanalyst | Active | incident-response, blue, forensics | |
-| Cʰᵃᵐʳᵒˢʰ | https://t.me/ch4mr0sh | Active | iranian, farsi, reverse-engineering | |
+| Cʰᵃᵐʳᵒˢʰ | https://t.me/ch4mr0sh | Inactive | iranian, farsi, reverse-engineering | |
 | H4shur ｜ هاشور ｜ <H4>shur | https://t.me/h4shur | Active | iranian, farsi | |
 | VSEC Academy ｜ آموزشگاه مجازی | https://t.me/VSEC_academy | Active | iranian, farsi, academy, personal, red, reverse-engineering, malware-analysis | متعلق به آقای نیما نیکجو |
 | Deep Injection ｜ امنیت سایبری | https://t.me/deep_injection | Inactive | iranian, farsi | |
-| Bug Bounty Tools & Writeups ｜ Hide Club | https://t.me/Hide_Club | Active | webapp, bug-bounty | |
+| Bug Bounty Tools & Writeups ｜ Hide Club | https://t.me/Hide_Club | Inactive | webapp, bug-bounty | |
 | 0Day.Today ｜ Learn Exploit ｜ Zero World ｜ Dark web ｜ | https://t.me/LearnExploit | Active | iranian, farsi, academy | |
 | امنیت سایبری ｜ Cyber Security | https://t.me/intsec | Active | iranian, farsi, news | |
 | Библиотека разведчика ｜ Osint ｜ Книги ｜ Курсы | https://t.me/books_osint | Active | osint, books | |
-| پلاک نت｜مرجع انتشار محتوای حوزه امنیت سایبر | https://t.me/pelaknet | Active | iranian, farsi | |
-| 🛡️الدرع الأخضر ｜ GREEN ARMOR🛡️ | https://t.me/GREEN_ARMOR | Active | arabic, courses | |
+| پلاک نت｜مرجع انتشار محتوای حوزه امنیت سایبر | https://t.me/pelaknet | Inactive | iranian, farsi | |
+| 🛡️الدرع الأخضر ｜ GREEN ARMOR🛡️ | https://t.me/GREEN_ARMOR | Inactive | arabic, courses | @GreenArmorHQ |
 | Protect\_cyber ｜ آموزش تست نفوذ شبکه ｜ تست نفوذ وب ｜ هک قانونمند ｜ امن سازی سرور | https://t.me/protect_cyber_sec | Active | academy, iranian, farsi | |
 | Max Open Source ｜ ИТ ｜ Программирование ｜ Кибербезопасность ｜ Cybersecurity ｜ InfoSec ｜ Osint | https://t.me/coursmax | Active | russian, academy, osint | |
 | IRLeaks | https://t.me/irleaks | Inactive | iranian, farsi, actor | هک اطلاعات و باج‌گیری از 20 بانک ایرانی (دریافت 3 میلیون دلار رمزارز)، 23 شرکت بیمه، تپسی، سازمان حج، اسنپ‌فود و اتاقک. |
-| Codebreakers | https://t.me/ircodebreakers | Active | iranian, farsi, actor | کانال عامل نشت و باج‌گیری اطلاعات بانک سپه |
+| Codebreakers | https://t.me/ircodebreakers | Inactive | iranian, farsi, actor | کانال عامل نشت و باج‌گیری اطلاعات بانک سپه |
 | Network Security | https://t.me/NetSecZ | Active | iranian, farsi, network, red | |
 | 🕸 Articles | https://t.me/web_articles | Active | webapp, pentest, bug-bounty, vulnerabilities, iraniran, farsi | |
-| Cyber Security Course | https://t.me/cybersecuritycoursex | Active | courses | |
+| Cyber Security Course | https://t.me/cybersecuritycoursex | Inactive | courses | |
 | P.F.K CTF | https://t.me/PfkCTF | Active | ctf | |
 | CyberSecurity LF | https://t.me/cypack | Active | iranian, farsi, courses | |
 | کانال امنیت سایبری آراج | https://t.me/araj_security | Active | iranian, farsi, blue, personal | متعلق به آقای احمدرضا اسدی |
@@ -181,7 +181,7 @@
 | The Chaos | https://t.me/Chaos_nexus_tech | Active | iranian, red, farsi, iot, tools | |
 | /dev/null | https://t.me/mrdevnull | Active | iranian, farsi, web, network | |
 | Mandegar SEC🎩 | https://t.me/mandegar_sec | Active | iranian, farsi, red, tools, bug-bounty, web | | 
-| Green Fire | https://t.me/GreenFire_ir | Active | iranian, farsi | |
+| Green Fire | https://t.me/GreenFire_ir | Inactive | iranian, farsi | |
 | ThreatStrix | https://t.me/ThreatStrix | Active | iranian, farsi, blue | |
 | HackMeLocal | https://t.me/HackMeLocal | Active | iranian, pentest, farsi, cve, vulnerabilities, web | |
 | ZeroSec_team | https://t.me/ZeroSec_team | Active | iranian, pentest, farsi, cve, vulnerabilities, web, exploits | |
@@ -202,4 +202,4 @@
 | AVN COMMUNITY 🪬 | https://t.me/AVN_COMMUNITY | Active | iranian, farsi, pentest | |
 | IRLeaks | https://t.me/irleaks_admin | Active | iranian, farsi, threat-actor, ransom, data-seller, scam | ظاهراً فقط برند قبلی‌ها رو کپی کردن |
 | اندروید امنیت و هک | https://t.me/androidSec_fa | Active | iranian, farsi, android, mobile, news | |
-| LOW SIGNAL | https://t.me/low_signal73 | Active ‌| iranian, farsi, news, personal | |
+| LOW SIGNAL | https://t.me/low_signal73 | Active | iranian, farsi, news, personal | |
