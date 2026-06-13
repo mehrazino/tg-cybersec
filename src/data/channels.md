@@ -200,6 +200,6 @@
 | Writeup Golden Point Extractor | https://t.me/WGPE0o0 | Active | bug-bounty, web, pentest, cve, vulnerabilities | |
 | Tajan Security | https://t.me/TajanSecurity | Active | iranian, farsi, pentest, bug-bounty | |
 | AVN COMMUNITY 🪬 | https://t.me/AVN_COMMUNITY | Active | iranian, farsi, pentest | |
-| IRLeaks | https://t.me/irleaks_admin | Active | iranian, farsi, threat-actor, ransom, data-seller | ظاهراً جعلی هستن |
+| IRLeaks | https://t.me/irleaks_admin | Active | iranian, farsi, threat-actor, ransom, data-seller, scam | ظاهراً فقط برند قبلی‌ها رو کپی کردن |
 | اندروید امنیت و هک | https://t.me/androidSec_fa | Active | iranian, farsi, android, mobile, news | |
 | LOW SIGNAL | https://t.me/low_signal73 | Active ‌| iranian, farsi, news, personal | |
