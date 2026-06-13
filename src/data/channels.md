@@ -5,7 +5,6 @@
 |--------------|------|--------|------|-------------|
 | وب‌آموز | https://t.me/webamoozir | Active | farsi, iranian, cyber-crime, sponsored, news | کانال بررسی و اطلاع‌رسانی جرایم سایبری، متعلق به آقای محمد جرجندی‌ |
 | Mehraz Logs | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal, sponsored | کانال شخصی من |
-| Sec gap | https://t.me/sec_gap | Active | iranian, farsi, groups, chat, sponsored | گروه عمومی چت |
 | Mr. SAM | https://t.me/NullError_ir | Active | iranian, farsi, red | |
 | مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Inactive | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers |
 | OnHex | https://t.me/onhex_ir | Active | red, exploits, reverse-engineering, bug-bounty, news, iranian | |
@@ -197,4 +196,6 @@
 | network tips and learning | https://t.me/network_tips | Active | iranian, farsi, network, personal | متعلق به آقای علی کلانتری |
 | Threat Hunting Father 🦔 | https://t.me/ThreatHuntingFather | Active | russian, cti | |
 | ReverseEngineering | https://t.me/reverseengine | Active | farsi, iranian, reverse-engineering | |
-
+| Paskoocheh پس‌کوچه | https://t.me/paskoocheh | Active | farsi, news, iranian | |
+| Writeup Golden Point Extractor | https://t.me/WGPE0o0 | bug-bounty, web, pentest, cve, vulnerabilities | |
+| Tajan Security | https://t.me/TajanSecurity | iranian, farsi, pentest, bug-bounty | |
