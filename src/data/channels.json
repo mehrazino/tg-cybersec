@@ -2035,9 +2035,10 @@
       "farsi",
       "threat-actor",
       "ransom",
-      "data-seller"
+      "data-seller",
+      "scam"
     ],
-    "description": "ظاهراً جعلی هستن"
+    "description": "ظاهراً فقط برند قبلی‌ها رو کپی کردن"
   },
   {
     "name": "اندروید امنیت و هک",
