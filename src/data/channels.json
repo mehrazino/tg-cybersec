@@ -1989,5 +1989,79 @@
       "iranian"
     ],
     "description": ""
+  },
+  {
+    "name": "Writeup Golden Point Extractor",
+    "link": "https://t.me/WGPE0o0",
+    "status": "Active",
+    "tags": [
+      "bug-bounty",
+      "web",
+      "pentest",
+      "cve",
+      "vulnerabilities"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Tajan Security",
+    "link": "https://t.me/TajanSecurity",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "pentest",
+      "bug-bounty"
+    ],
+    "description": ""
+  },
+  {
+    "name": "AVN COMMUNITY 🪬",
+    "link": "https://t.me/AVN_COMMUNITY",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "pentest"
+    ],
+    "description": ""
+  },
+  {
+    "name": "IRLeaks",
+    "link": "https://t.me/irleaks_admin",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "threat-actor",
+      "ransom",
+      "data-seller"
+    ],
+    "description": "ظاهراً جعلی هستن"
+  },
+  {
+    "name": "اندروید امنیت و هک",
+    "link": "https://t.me/androidSec_fa",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "android",
+      "mobile",
+      "news"
+    ],
+    "description": ""
+  },
+  {
+    "name": "LOW SIGNAL",
+    "link": "https://t.me/low_signal73",
+    "status": "Active ‌",
+    "tags": [
+      "iranian",
+      "farsi",
+      "news",
+      "personal"
+    ],
+    "description": ""
   }
 ]
