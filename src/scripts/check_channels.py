@@ -1,6 +1,6 @@
 # src/scripts/check_channels.py
 # GitHub Actions compatible version - No proxy required
-# This script checks Telegram channel statuses and updates channels.md
+# Checks Telegram channel status using tgme_page_extra and tgme_page_photo/title detection
 
 import asyncio
 import aiohttp
@@ -10,42 +10,16 @@ import os
 from datetime import datetime
 
 # ===== CONFIGURATION =====
-# No proxy needed for GitHub Actions (runs on GitHub servers)
 TIMEOUT = 15
-MAX_CONCURRENT = 10
-# Path to channels.md from repository root
+MAX_CONCURRENT = 5
 MD_FILE_PATH = "src/data/channels.md"
-
-# Safety settings
-DRY_RUN = False  # Set to True for testing without writing changes
-CREATE_BACKUP = True  # Creates timestamped backup before making changes
+DRY_RUN = False
 # =========================
-
-def backup_file(file_path):
-    """
-    Create a timestamped backup of the file before making changes.
-    Returns the backup file path or None if backup failed.
-    """
-    if not CREATE_BACKUP:
-        return None
-    
-    backup_path = f"{file_path}.backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            content = f.read()
-        with open(backup_path, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"✅ Backup created: {backup_path}")
-        return backup_path
-    except Exception as e:
-        print(f"⚠️ Backup failed: {e}")
-        return None
 
 def extract_channels_from_md(file_path):
     """
-    Parse channels.md file to extract channel usernames and their current status.
+    Extract channel usernames and their current status from channels.md.
     Supports both public (t.me/username) and private (t.me/+code) channels.
-    Returns a list of channel dictionaries.
     """
     channels = []
     
@@ -57,9 +31,8 @@ def extract_channels_from_md(file_path):
         print(f"❌ File not found: {file_path}")
         return []
     
-    # Pattern for public channels: https://t.me/username
+    # Patterns for public and private channels
     public_pattern = r'https?://t\.me/([a-zA-Z0-9_]+)'
-    # Pattern for private channels: https://t.me/+code
     private_pattern = r'https?://t\.me/(\+[a-zA-Z0-9_-]+)'
     
     public_matches = re.findall(public_pattern, content)
@@ -75,58 +48,50 @@ def extract_channels_from_md(file_path):
             seen.add(username)
             unique_usernames.append(username)
     
-    # Extract current status for each channel from the markdown table
+    # Extract current status for each channel
     for username in unique_usernames:
         escaped_username = re.escape(username)
-        # Match the status column in the table row
-        row_pattern = rf'\|.*?{escaped_username}.*?\| ([^|]+) \|'
-        row_match = re.search(row_pattern, content)
+        row_pattern = rf'\|.*?{escaped_username}.*?\| (active|inactive) \|'
+        row_match = re.search(row_pattern, content, re.IGNORECASE)
         
         if row_match:
-            current_status_raw = row_match.group(1).strip()
-            # Store original status as it appears in the file
-            current_status_original = current_status_raw
-            # Normalize to lowercase for comparison
-            if current_status_raw.lower() == 'active':
-                current_status = 'active'
-            else:
-                current_status = 'inactive'
+            current_status = row_match.group(1).strip().lower()
         else:
-            current_status_original = 'unknown'
-            current_status = 'inactive'
+            current_status = 'unknown'
         
         channels.append({
             "username": username,
-            "current_status": current_status,
-            "original_status": current_status_original
+            "current_status": current_status
         })
     
     print(f"📊 Found {len(channels)} channels")
     for ch in channels[:5]:
-        print(f"   • {ch['username']}: file says '{ch['original_status']}' -> normalized to '{ch['current_status']}'")
+        print(f"   • {ch['username']}: current status '{ch['current_status']}'")
     
     return channels
 
 async def check_channel_status(channel_username, session):
     """
     Check a single Telegram channel to determine if it's active.
-    A channel is considered active if it contains any of the keywords
-    (subscriber, member, or their Persian equivalents).
+    Logic:
+    - If 'tgme_page_extra' exists -> Active (public channel with members)
+    - If 'tgme_page_photo' and 'tgme_page_title' exist -> Active (private/public channel)
+    - Otherwise -> Inactive (deleted or not found)
     """
     url = f"https://t.me/{channel_username}"
     
     try:
         async with session.get(url, timeout=TIMEOUT) as resp:
-            html = await resp.text()
-            html_lower = html.lower()
+            text = await resp.text()
             
-            # Keywords that indicate a channel has members/subscribers
-            # English and Persian variants
-            keywords = [
-                'subscriber', 'subscribers', 'member', 'members',
-                'مشترک', 'عضو', 'کاربر', 'followers'
-            ]
-            is_active = any(keyword in html_lower for keyword in keywords)
+            is_active = False
+            
+            # Check for subscriber count element
+            if 'tgme_page_extra' in text:
+                is_active = True
+            # Check for channel photo and title (works for private channels)
+            elif 'tgme_page_photo' in text and 'tgme_page_title' in text:
+                is_active = True
             
             return {"username": channel_username, "active": is_active}
                 
@@ -138,18 +103,10 @@ async def check_channel_status(channel_username, session):
         return {"username": channel_username, "active": False}
 
 async def main():
-    """
-    Main function orchestrating the channel checking process:
-    1. Parse channels.md file
-    2. Check each channel's status concurrently
-    3. Compare results with current status
-    4. Update the file if changes are needed
-    """
     print("=" * 70)
-    print("Telegram Channels Status Checker (GitHub Actions Compatible)")
+    print("Telegram Channels Status Checker")
     print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"DRY RUN: {DRY_RUN}")
-    print(f"Working directory: {os.getcwd()}")
     print(f"Target file: {os.path.abspath(MD_FILE_PATH)}")
     print("=" * 70)
     
@@ -159,13 +116,15 @@ async def main():
         print("No channels found. Exiting.")
         sys.exit(1)
     
-    # Use regular ClientSession (no proxy needed for GitHub Actions)
-    async with aiohttp.ClientSession() as session:
-        # Limit concurrent requests to avoid rate limiting
+    # Use TCPConnector for better connection management
+    connector = aiohttp.TCPConnector(limit=MAX_CONCURRENT, limit_per_host=MAX_CONCURRENT)
+    
+    async with aiohttp.ClientSession(connector=connector) as session:
         semaphore = asyncio.Semaphore(MAX_CONCURRENT)
         
         async def bounded_check(channel):
             async with semaphore:
+                print(f"🔍 Checking: {channel['username']}")
                 return await check_channel_status(channel["username"], session)
         
         tasks = [bounded_check(ch) for ch in channels]
@@ -177,57 +136,52 @@ async def main():
         channel = channels[i]
         new_status = "active" if result["active"] else "inactive"
         
-        # Update if: logical status changed OR original format needs normalization
-        # This ensures all statuses become lowercase 'active'/'inactive'
-        if new_status != channel["current_status"] or channel["original_status"].lower() != channel["original_status"]:
+        # Update if status changed or current status is not recognized
+        if new_status != channel["current_status"] or channel["current_status"] == 'unknown':
             updates.append({
                 "username": result["username"],
-                "old_status": channel["original_status"],
+                "old_status": channel["current_status"],
                 "new_status": new_status
             })
     
-    # Print results summary
+    # Print summary
+    active_count = sum(1 for r in results if r["active"])
     print(f"\n📊 Results:")
     print(f"   Total checked: {len(results)}")
-    print(f"   Channels to update: {len(updates)}")
+    print(f"   Active channels: {active_count}")
+    print(f"   Inactive channels: {len(results) - active_count}")
+    print(f"   Status changes needed: {len(updates)}")
     
-    # Apply updates if any
+    # Apply updates
     if updates:
-        print(f"\n🔄 Channels that will be updated:")
+        print(f"\n🔄 Channels to update:")
         for u in updates:
             print(f"   • {u['username']}: '{u['old_status']}' → '{u['new_status']}'")
         
         if DRY_RUN:
             print(f"\n⚠️ DRY RUN - No changes were made to the file.")
         else:
-            # Create backup before modifying
-            backup_file(MD_FILE_PATH)
-            
             try:
-                # Read the current file content
                 with open(MD_FILE_PATH, "r", encoding="utf-8") as f:
                     content = f.read()
                 
-                # Apply each status update
                 for u in updates:
                     escaped_username = re.escape(u['username'])
-                    # Pattern matches the status column in the table row
-                    pattern = rf'(\|.*?{escaped_username}.*?\|) [^|]+ (\|)'
-                    replacement = rf'\1 {u["new_status"]} \2'
-                    content = re.sub(pattern, replacement, content)
+                    # Match the status column (active/inactive) and replace
+                    pattern = rf'(\|.*?{escaped_username}.*?\|) (active|inactive) (\|)'
+                    replacement = rf'\1 {u["new_status"]} \3'
+                    content = re.sub(pattern, replacement, content, flags=re.IGNORECASE)
                 
-                # Write the updated content back to file
                 with open(MD_FILE_PATH, "w", encoding="utf-8") as f:
                     f.write(content)
                 
                 print(f"\n✅ Updated {len(updates)} channel status(es) in {MD_FILE_PATH}")
-                print(f"   File size after update: {len(content)} characters")
                 
             except Exception as e:
                 print(f"\n❌ Error updating file: {e}")
                 sys.exit(1)
     else:
-        print(f"\n✅ No updates needed")
+        print(f"\n✅ No status changes needed")
     
     print(f"\nFinished: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
