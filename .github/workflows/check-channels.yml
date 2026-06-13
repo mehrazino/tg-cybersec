@@ -1,18 +1,17 @@
-# .github/workflows/check-channels.yml
 name: Check Telegram Channels Status
 
 on:
   schedule:
-    # Runs every Sunday at 00:00 UTC
+    # Run every Sunday at 00:00 UTC
     - cron: '0 0 * * 0'
-  # Allows you to run this workflow manually from the Actions tab
+  # Allow manual trigger from GitHub UI
   workflow_dispatch:
 
 jobs:
-  check-status:
+  check:
     runs-on: ubuntu-latest
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push.
+      # Required to commit changes back to the repository
       contents: write
 
     steps:
@@ -21,7 +20,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -34,7 +33,7 @@ jobs:
       - name: Run channel status checker
         run: python src/scripts/check_channels.py
 
-      - name: Commit and push if changes occurred
+      - name: Commit and push if changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action - Channel Checker"
