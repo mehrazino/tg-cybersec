@@ -176,7 +176,7 @@
 | Dread_Net | active | Active | iranian, farsi, red, bug-bounty, tools, osint | |
 | *** تو کارمندی‌، باگ بزنید | https://t.me/KirTooKarmandi | active | iranian, farsi, web, bug-bounty | |
 | DarkBit | https://t.me/DarkBitx | active | iranian, farsi, red | |
-| ELITE DRAGON | https://t.me/ELITE_DRAGONS | inactive | iranian, red | |
+| ELITE DRAGON | https://t.me/ELITE_DRAGONS | active | iranian, red | |
 | Hack Hive | https://t.me/Hackhive_channel | active | iranian, vulnerabilities, cve, web, bug-bounty, red, farsi | |
 | The Chaos | https://t.me/Chaos_nexus_tech | active | iranian, red, farsi, iot, tools | |
 | /dev/null | https://t.me/mrdevnull | active | iranian, farsi, web, network | |
