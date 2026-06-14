@@ -2084,7 +2084,10 @@
     "tags": [
       "iranian",
       "farsi",
-      "personal"
+      "personal",
+      "bug-bounty",
+      "web",
+      "pentest"
     ],
     "description": ""
   },
