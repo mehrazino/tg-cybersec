@@ -2101,5 +2101,17 @@
       "news"
     ],
     "description": "آپا دانشگاه خلیج فارس"
+  },
+  {
+    "name": "BlankRoom HQ",
+    "link": "https://t.me/the_blankroom",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "data",
+      "vulnerabilty"
+    ],
+    "description": ""
   }
 ]
