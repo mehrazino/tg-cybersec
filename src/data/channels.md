@@ -203,3 +203,6 @@
 | IRLeaks | https://t.me/irleaks_admin | Active | iranian, farsi, threat-actor, ransom, data-seller, scam | ظاهراً فقط برند قبلی‌ها رو کپی کردن |
 | اندروید امنیت و هک | https://t.me/androidSec_fa | Active | iranian, farsi, android, mobile, news | |
 | LOW SIGNAL | https://t.me/low_signal73 | Active | iranian, farsi, news, personal | |
+| RedR00t | https://t.me/ReedR00t_channel | Active | iranian, farsi, web, network | |
+| RahaRM رها آرام | https://t.me/RahaRM_Official | Active | iranian, farsi, personal | |
+| امنیت سایبری (ITSec) | https://t.me/itsec_2024 | Active | iranian, farsi, news | آپا دانشگاه خلیج فارس |
