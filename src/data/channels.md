@@ -206,4 +206,4 @@
 | RedR00t | https://t.me/ReedR00t_channel | Active | iranian, farsi, web, network | |
 | RahaRM رها آرام | https://t.me/RahaRM_Official | Active | iranian, farsi, personal, bug-bounty, web, pentest | |
 | امنیت سایبری (ITSec) | https://t.me/itsec_2024 | Active | iranian, farsi, news | آپا دانشگاه خلیج فارس |
-| BlankRoom HQ | https://t.me/the_blankroom | iranian, farsi, data, vulnerabilty | |
+| BlankRoom HQ | https://t.me/the_blankroom | Active | iranian, farsi, data, vulnerabilty | |
