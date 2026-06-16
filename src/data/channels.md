@@ -207,3 +207,4 @@
 | RahaRM رها آرام | https://t.me/RahaRM_Official | Active | iranian, farsi, personal, bug-bounty, web, pentest | |
 | امنیت سایبری (ITSec) | https://t.me/itsec_2024 | Active | iranian, farsi, news | آپا دانشگاه خلیج فارس |
 | BlankRoom HQ | https://t.me/the_blankroom | Active | iranian, farsi, data, vulnerabilty | |
+| Fortress | https://t.me/Fortress_ds | Active | iranian, farsi, blue, soc, devsecops | |
