@@ -6,7 +6,7 @@
 | وب‌آموز | https://t.me/webamoozir | Active | farsi, iranian, cyber-crime, sponsored, news | کانال بررسی و اطلاع‌رسانی جرایم سایبری، متعلق به آقای محمد جرجندی‌ |
 | Mehraz Logs | https://t.me/Mehraz_Logs | Active | iranian, farsi, personal, sponsored | کانال شخصی من |
 | Mr. SAM | https://t.me/NullError_ir | Active | iranian, farsi, red | |
-| مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Inactive | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers |
+| مرکز تحقیقاتی APT IRAN | https://t.me/APTIRAN | Inactive | red, cti, osint, news, iranian | چنل مرتبط با گروه هکتیویستی Cyber Avengers لینک جدید: @APTIRAN_OFFICIAL|
 | OnHex | https://t.me/onhex_ir | Active | red, exploits, reverse-engineering, bug-bounty, news, iranian | |
 | APA-IUTcert | https://t.me/APA_IUTcert | Active | | |
 | Pentesting News | https://t.me/PentestingNews | Active | news | |
@@ -208,3 +208,8 @@
 | امنیت سایبری (ITSec) | https://t.me/itsec_2024 | Active | iranian, farsi, news | آپا دانشگاه خلیج فارس |
 | BlankRoom HQ | https://t.me/the_blankroom | Active | iranian, farsi, data, vulnerabilty | |
 | Fortress | https://t.me/Fortress_ds | Active | iranian, farsi, blue, soc, devsecops | |
+| Data Leak Monitor | https://t.me/breachdetect | Active | data, cti | |
+| CVE Monitor | https://t.me/CVEDetector | Active | cti, cve, vulnerability | |
+| 𝖳𝗁𝗋𝖾𝖺𝗍 𝖨𝗇𝗍𝖾𝗅𝗅𝗂𝗀𝖾𝗇𝖼𝖾 & 𝖢𝗒𝖻𝖾𝗋𝖲𝖾𝖼 | https://t.me/CyberMonitum | Active | news, cti, vulnerability, exploit | |
+| Souzangar سوزنگر | https://t.me/souzangar | Active | iranian, farsi, personal | متعلق به آقای سعید سوزنگر |
+| RaazNet رازنت | https://t.me/joinraaznet | Active | iranian, farsi, privacy, news | |
