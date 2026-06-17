@@ -46,7 +46,7 @@
       "news",
       "iranian"
     ],
-    "description": "چنل مرتبط با گروه هکتیویستی Cyber Avengers"
+    "description": "چنل مرتبط با گروه هکتیویستی Cyber Avengers لینک جدید: @APTIRAN_OFFICIAL"
   },
   {
     "name": "OnHex",
@@ -2124,6 +2124,62 @@
       "blue",
       "soc",
       "devsecops"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Data Leak Monitor",
+    "link": "https://t.me/breachdetect",
+    "status": "Active",
+    "tags": [
+      "data",
+      "cti"
+    ],
+    "description": ""
+  },
+  {
+    "name": "CVE Monitor",
+    "link": "https://t.me/CVEDetector",
+    "status": "Active",
+    "tags": [
+      "cti",
+      "cve",
+      "vulnerability"
+    ],
+    "description": ""
+  },
+  {
+    "name": "𝖳𝗁𝗋𝖾𝖺𝗍 𝖨𝗇𝗍𝖾𝗅𝗅𝗂𝗀𝖾𝗇𝖼𝖾 & 𝖢𝗒𝖻𝖾𝗋𝖲𝖾𝖼",
+    "link": "https://t.me/CyberMonitum",
+    "status": "Active",
+    "tags": [
+      "news",
+      "cti",
+      "vulnerability",
+      "exploit"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Souzangar سوزنگر",
+    "link": "https://t.me/souzangar",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "personal"
+    ],
+    "description": "متعلق به آقای سعید سوزنگر"
+  },
+  {
+    "name": "RaazNet رازنت",
+    "link": "https://t.me/joinraaznet",
+    "status": "Active",
+    "tags": [
+      "iranian",
+      "farsi",
+      "privacy",
+      "news"
     ],
     "description": ""
   }
